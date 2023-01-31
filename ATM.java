@@ -44,6 +44,8 @@ public class ATM {
                         case 4:
                             System.out.println("Bizi tercih ettiğiniz için teşekkür ederiz.");
                             break;
+                        default:
+                            System.out.println("Geçersiz bir tercih yaptınız. Lütfen tekrar deneyiniz.");
                     }
                 }
                 while (choice != 4);
